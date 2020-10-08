@@ -1,8 +1,26 @@
 body {
   color: #fff;
-  background-color: #1a1a37;
-  background-image: url(/src/assets/images/banner.jpg);
+  
+  background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #1a1a37),
+    url('https://i.ibb.co/gSZykzk/BANNER-1.jpg');
+   
+  position: center;
   overflow-y: auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  line-height: 1.2;
+  color: #5c5c77;
+  padding: 20px;
+
+}
+.hero-section {
+  padding: 250px 0 290px;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
 }
 
 /* main div */
@@ -259,8 +277,9 @@ pointer-events:auto;
 
 /* login styles */
 #login {
-  background: #473761bb !important;
-  box-shadow: 4px 0px 8px #14101bbb;
+  /* background: #473761bb !important; */
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%) !important;
+  box-shadow: 4px 1px 8px #1a1a37;
 }
 
 #room-create img {
@@ -675,7 +694,7 @@ input:checked + .slider:before {
   z-index: 2;
   border-radius: 6px;
   box-shadow: 3px 3px 20px black;
-  background-color: rgba(52, 40, 53, 1);
+  background-color: #aeb1b8;
   top: -250px;
   transition: top 1.5s;
 }
@@ -701,7 +720,7 @@ input:checked + .slider:before {
   z-index: 14;
   border-radius: 2px;
   box-shadow: 7px 7px 20px rgba(10,10,10,.4);
-  background-color: rgba(72, 60, 73, 1);
+  background-color: #DEE0E4;
 }
 
 #feedback {
@@ -715,7 +734,7 @@ input:checked + .slider:before {
   border-radius: 5px 5px 0px 0px;
   color:white;
   z-index: 10000;
-  background-color: #673ab7;
+  background-color: #ffbc3b;
 }
 
 /* general styles */
